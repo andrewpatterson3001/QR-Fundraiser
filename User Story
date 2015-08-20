@@ -1,0 +1,19 @@
+User Story
+
+User can sign up with a class within a school that has an account with the site.
+--School has many students. Student belongs to a school.
+
+Once logged in, students can see class leader board to track their progress.
+
+Students can click on a picture of a camera to request access to their camera and scan a QR code.
+
+They will be redirected to a page that requests a code to be entered. One time use code is inside the box to prevent abuse.
+
+The next time they open the app, they can simply enter another code without scanning again.
+
+Their donation is recorded and they are rewarded with a link to ACT question or reading passage.
+
+If they try to scan twice, there will be an error message to inform them that the code has already been used.
+
+
+
