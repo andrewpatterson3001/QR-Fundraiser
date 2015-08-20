@@ -38,7 +38,7 @@ ActiveRecord::Schema.define(version: 20150819233657) do
   create_table "schools", force: :cascade do |t|
     t.string   "state"
     t.string   "district"
-    t.string   "title9_status"
+    t.boolean  "title9_status"
     t.datetime "created_at",    null: false
     t.datetime "updated_at",    null: false
   end

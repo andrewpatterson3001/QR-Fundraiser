@@ -3,7 +3,7 @@ class CreateSchools < ActiveRecord::Migration
     create_table :schools do |t|
       t.string :state
       t.string :district
-      t.string :title9_status
+      t.boolean :title9_status
 
       t.timestamps null: false
     end
