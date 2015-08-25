@@ -32,9 +32,11 @@ gem 'bcrypt', '~> 3.1.7'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-#Image Analysis Gems
-gem 'rmagick'
-gem 'phashion'
+#No longer using rmagick for image analysis. I'm using the phonegap barcodescanner plugin instead.
+
+#Since this repo will just serve as an API, i'm including rails-api gem.
+
+gem 'rails-api'
 
 
 
